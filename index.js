@@ -1,4 +1,15 @@
+var java = "java";
+
+var script = "script";
+
+var both = java + " " + script;
+
+console.log(both.length);
+
+
+/*
 console.log("LKJASDLKJASDLKJSDA".length);
+*/
 
 
 
