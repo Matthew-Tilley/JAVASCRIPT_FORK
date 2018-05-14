@@ -1,8 +1,20 @@
+var codeWord_1 = "are";
+var codeWord_2 = "tubas";
+var codeWord_3 = "unsafe";
+var codeWord_4 = "?!";
+
+console.log(codeWord_1[1] + codeWord_2[1] + codeWord_3[1] + codeWord_4[1]);
+
+
+
+
+/*
 var picklez = "asleifswasilAksfcmet"
 
 console.log(picklez.length);
 
 console.log(picklez[12]);
+*/
 
 /*var java = "java";
 
