@@ -1,3 +1,11 @@
+var balloons = 100;
+balloons *= 2;
+
+console.log("There are now " + balloons + " balloons!");
+
+
+
+/*
 var x = 5;
 
 x += 5;
@@ -11,6 +19,7 @@ console.log(x);
 x -= 7;
 
 console.log(x);
+*/
 
 
 
