@@ -1,6 +1,15 @@
-var nick;
+function orange()
+{
+    var nick;
+    
+    return nick = "George";
+};
 
-console.log(nick);
+console.log(orange());
+
+/*var nick;
+
+console.log(nick);*/
 
 
 /*var a = 15;
