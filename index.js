@@ -1,11 +1,25 @@
+var mess = "hEllO THERE hOW arE yOu dOInG?"
+
+var lower = mess.toLowerCase();
+
+var len = lower.length;
+
+var remainder = lower.slice(1, len +=1 );
+
+var first = lower.slice(0,1).toUpperCase();
+
+var whole = first + remainder;
+
+console.log(whole);
 
 
 
 
-var long_string = "This seems to be a really long string of characters, blah, blah, blah...";
+
+/*var long_string = "This seems to be a really long string of characters, blah, blah, blah...";
 
 console.log(long_string.toUpperCase());
-console.log(long_string.toLowerCase());
+console.log(long_string.toLowerCase());*/
 
 //console.log(long_string.length);
 
