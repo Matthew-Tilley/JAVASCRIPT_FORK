@@ -1,11 +1,22 @@
-function orange()
+function age(yob)
+{
+    var t = parseInt(yob);
+    
+    you_are = 2018 - t;
+    
+    return you_are;
+};
+
+console.log(age(1974));
+
+/*function orange()
 {
     var nick;
     
     return nick = "George";
 };
 
-console.log(orange());
+console.log(orange());*/
 
 /*var nick;
 
