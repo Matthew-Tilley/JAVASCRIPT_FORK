@@ -1,11 +1,31 @@
-function age(yob)
+var seconds_in_minute = 60;
+
+var seconds_in_hour = 60;
+
+var seconds_per_hour = seconds_in_hour * seconds_in_minute;
+
+var seconds_per_day = seconds_per_hour * 24;
+
+var seconds_per_year = seconds_per_day * 365;
+
+console.log(seconds_per_hour);
+console.log(seconds_per_day);
+console.log(seconds_per_hour);
+console.log(seconds_per_year);
+
+
+
+
+
+
+/*function age(yob)
 {
     var old = 2018 - yob;
-    
+
     return old;
 };
 
-console.log(age(1974));
+console.log(age(1974));*/
 
 
 
