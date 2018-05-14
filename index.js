@@ -1,8 +1,18 @@
+
+
+
+
 var long_string = "This seems to be a really long string of characters, blah, blah, blah...";
 
-console.log(long_string.length);
+console.log(long_string.toUpperCase());
+console.log(long_string.toLowerCase());
 
-console.log(long_string.slice(18, 57));
+//console.log(long_string.length);
+
+//console.log(long_string.slice(18, 57));
+
+
+
 
 
 
