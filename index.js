@@ -1,8 +1,13 @@
+console.log(12345 + 56789);
+
+
+/*
 var something = "This is a long string";
 
 var c = something.slice(0,4);
 
 console.log(c);
+*/
 
 
 /*
