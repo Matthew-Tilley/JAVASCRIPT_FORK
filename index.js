@@ -1,5 +1,16 @@
 function age(yob)
 {
+    var old = 2018 - yob;
+    
+    return old;
+};
+
+console.log(age(1974));
+
+
+
+/*function age(yob)
+{
     var t = parseInt(yob);
     
     you_are = 2018 - t;
@@ -7,7 +18,7 @@ function age(yob)
     return you_are;
 };
 
-console.log(age(1974));
+console.log(age(1974));*/
 
 /*function orange()
 {
