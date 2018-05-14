@@ -1,10 +1,16 @@
-var java = "java";
+var picklez = "asleifswasilAksfcmet"
+
+console.log(picklez.length);
+
+console.log(picklez[12]);
+
+/*var java = "java";
 
 var script = "script";
 
 var both = java + " " + script;
 
-console.log(both.length);
+console.log(both.length);*/
 
 
 /*
