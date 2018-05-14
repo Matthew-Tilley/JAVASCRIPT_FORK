@@ -1,10 +1,17 @@
-var codeWord_1 = "are";
+var long_string = "This seems to be a really long string of characters, blah, blah, blah...";
+
+console.log(long_string.length);
+
+console.log(long_string.slice(18, 57));
+
+
+
+/*var codeWord_1 = "are";
 var codeWord_2 = "tubas";
 var codeWord_3 = "unsafe";
 var codeWord_4 = "?!";
 
-console.log(codeWord_1[1] + codeWord_2[1] + codeWord_3[1] + codeWord_4[1]);
-
+console.log(codeWord_1[1] + codeWord_2[1] + codeWord_3[1] + codeWord_4[1]);*/
 
 
 
