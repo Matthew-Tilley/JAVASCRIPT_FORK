@@ -1,4 +1,12 @@
-var high_fives = 0;
+var something = 5;
+
+var something = something + 5;
+
+console.log(something);
+
+
+
+/*var high_fives = 0;
 
 times = prompt("How many high-fives have you gotten today?");
 
@@ -6,7 +14,7 @@ console.log("Here's one more...");
 
 times++;
 
-console.log(times);
+console.log(times);*/
 
 
 
