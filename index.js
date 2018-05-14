@@ -1,9 +1,14 @@
+var nick;
 
-var a = 15;
+console.log(nick);
+
+
+/*var a = 15;
 
 var b = 9;
 
-var c = console.log( (a + b) * 2 ) ;
+var c = console.log( (a + b) * 2 ) ;*/
+
 
 
 /*console.log(12345 + 56789);*/
