@@ -1,9 +1,18 @@
+var something = "This is a long string";
+
+var c = something.slice(0,4);
+
+console.log(c);
+
+
+/*
 var a = 99;
 var b = 123;
 
 var c = a + b;
 
 console.log(c);
+*/
 
 /*var a = "APPLE"
 
