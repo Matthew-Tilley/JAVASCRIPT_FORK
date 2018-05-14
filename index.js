@@ -1,4 +1,18 @@
-var seconds_in_minute = 60;
+var high_fives = 0;
+
+times = prompt("How many high-fives have you gotten today?");
+
+console.log("Here's one more...");
+
+times++;
+
+console.log(times);
+
+
+
+
+
+/*var seconds_in_minute = 60;
 
 var seconds_in_hour = 60;
 
@@ -17,7 +31,7 @@ var age = 43;
 
 age_in_seconds = age * seconds_per_year;
 
-console.log(age_in_seconds);
+console.log(age_in_seconds);*/
 
 
 
