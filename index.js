@@ -1,3 +1,8 @@
+console.log("LKJASDLKJASDLKJSDA".length);
+
+
+
+/*
 var balloons = 100;
 balloons *= 2;
 
@@ -6,6 +11,7 @@ console.log("There are now " + balloons + " balloons!");
 balloons /= 4; 
 
 console.log("Most of the balloons have popped; there are only " + balloons + " of them left.");
+*/
 
 
 
