@@ -1,8 +1,25 @@
-var something = 5;
+var x = 5;
+
+x += 5;
+
+console.log(x);
+
+x += 20;
+
+console.log(x);
+
+x -= 7;
+
+console.log(x);
+
+
+
+
+/*var something = 5;
 
 var something = something + 5;
 
-console.log(something);
+console.log(something);*/
 
 
 
