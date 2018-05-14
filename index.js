@@ -13,7 +13,11 @@ console.log(seconds_per_day);
 console.log(seconds_per_hour);
 console.log(seconds_per_year);
 
+var age = 43;
 
+age_in_seconds = age * seconds_per_year;
+
+console.log(age_in_seconds);
 
 
 
