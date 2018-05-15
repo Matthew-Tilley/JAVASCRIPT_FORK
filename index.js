@@ -1,4 +1,10 @@
-var mess = "hEllO THERE hOW arE yOu dOInG?"
+var sillyString = "hEllO THERE hOW arE yOu dOInG?"
+
+var output = sillyString[0].toUpperCase() + sillyString.slice(1).toLowerCase();
+
+console.log(output);
+
+/*var mess = "hEllO THERE hOW arE yOu dOInG?"
 
 var lower = mess.toLowerCase();
 
@@ -10,9 +16,7 @@ var first = lower.slice(0,1).toUpperCase();
 
 var whole = first + remainder;
 
-console.log(whole);
-
-
+console.log(whole);*/
 
 
 
