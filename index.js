@@ -1,33 +1,63 @@
 // PG-13 Program
-var age = parseInt(prompt("Please enter your current age: "));
-var accompanied = prompt("Are you accompanied by a parent or legal guardian?  Please enter 'y' for 'yes' or 'n' for no: ");
 
-if (accompanied == "y" || "Y")
+
+function ageData()
     {
-        accompanied === true;
+        var age = parseInt(prompt("Please enter your current age: "));
+        return decisionTree_1(age);
     }
 
-else
+function decisionTree_1(age)
     {
-        accompanied == false;
-    }
-
-
-if (age >= 13)
-    {
-        console.log("Great...you can see the movie!");
-    }
-
-else if (age < 13 && accompanied == true)
-    {
+        if (age >= 13)
+            {
+                alert("Great...enjoy the show!");
+            }
         
-        console.log("Great...you are allowed to see the movie!")
+        
+        else
+            {
+                return decisionTree_2();
+            }
     }
 
-else
+
+function decisionTree_2()
     {
-        console.log("Sorry...you're not allowed to see this movie.");
+        var accompanied = prompt("Are you accompanied by a parent or legal guardian?  Please enter either 'y' for yes, or 'n' for no: ");
+        
+        if (accompanied == "y" || accompanied == "Y")
+            {
+                goAhead();
+            }
+        
+        else
+            {
+                noCanDo();
+            }
+        
     }
+
+
+
+function goAhead()
+    {
+        alert("Great...enjoy the show!");
+    }
+
+
+function noCanDo()
+    {
+        alert("Sorry, but you'll have to select another movie!");
+    }
+
+
+ageData();
+
+
+
+
+
 
 
 /*var sillyString = "hEllO THERE hOW arE yOu dOInG?"
