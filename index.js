@@ -11,6 +11,8 @@ someStuff[2] = "clock";
 
 someStuff[5] = "whale";
 
+someStuff[6] = 54;
+
 console.log(someStuff);
 
 
