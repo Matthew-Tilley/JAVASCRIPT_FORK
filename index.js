@@ -1,3 +1,13 @@
+var someStuff = ["this", "that", "other", "canoe", "alligator"];
+
+console.log(someStuff);
+
+
+
+
+
+
+/*
 // PG-13 Program
 
 
@@ -55,6 +65,7 @@ function noCanDo()
 ageData();
 
 
+*/
 
 
 
