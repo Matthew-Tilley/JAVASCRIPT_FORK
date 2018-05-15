@@ -1,4 +1,8 @@
-var someStuff = ["this", "that", "other", "canoe", "alligator"];
+var someStuff = [   "this", 
+                    "that", 
+                    "other", 
+                    "canoe", 
+                    "alligator"];
 
 console.log(someStuff);
 
