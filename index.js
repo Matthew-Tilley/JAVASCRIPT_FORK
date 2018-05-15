@@ -4,6 +4,13 @@ var someStuff = [   "this",
                     "canoe", 
                     "alligator"];
 
+//console.log(someStuff[2]);
+console.log(someStuff.length);
+
+someStuff[2] = "clock";
+
+someStuff[5] = "whale";
+
 console.log(someStuff);
 
 
