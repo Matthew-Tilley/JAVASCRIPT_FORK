@@ -1,4 +1,14 @@
-var dinosaurs = [];
+var furryAnimals = ["alpaca", "ring-tailed lemur", "yeti"]
+var scalyAnimals = ["lizard", "snake", "alligator"]
+
+var mixture = furryAnimals.concat(scalyAnimals);
+
+console.log(mixture);
+console.log(furryAnimals);
+console.log(scalyAnimals);
+
+
+/*var dinosaurs = [];
 
 dinosaurs = ["T-rex", "Velociraptor", ["Stegosaurus", "Triceratops", "Brachiosaurus"], "Pteranodon", "Apatosaurus", "Diplodocus"];
 
@@ -26,7 +36,7 @@ console.log("VAR FLURP = " + flurp);
 
 
 
-console.log(dinosaurs);
+console.log(dinosaurs);*/
 
 
 
