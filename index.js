@@ -2,8 +2,15 @@ var dinosaurs = [];
 
 dinosaurs = ["T-rex", "Velociraptor", ["Stegosaurus", "Triceratops", "Brachiosaurus"], "Pteranodon", "Apatosaurus", "Diplodocus"];
 
+
+var blurp = dinosaurs[dinosaurs.length-1];
+
+console.log(blurp);
+
+
 //console.log(dinosaurs);
 
+/*
 console.log(dinosaurs[3][1]);  //THIS ACCESSES THE 't' IN PTERANODON.
 
 
@@ -14,6 +21,7 @@ console.log(dinosaurs[2][2]);  //THIS ACCESSES "BRACHIOSAURUS."
 console.log(dinosaurs[2][2][2]); //THIS ACCESSES THE 'a' in "BRACHIOSAURUS."
 
 console.log(dinosaurs.length);
+*/
 
 
 
