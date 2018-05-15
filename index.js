@@ -1,8 +1,42 @@
-var sillyString = "hEllO THERE hOW arE yOu dOInG?"
+// PG-13 Program
+var age = parseInt(prompt("Please enter your current age: "));
+var accompanied = prompt("Are you accompanied by a parent or legal guardian?  Please enter 'y' for 'yes' or 'n' for no: ");
+
+if (accompanied == "y" || "Y")
+    {
+        accompanied === true;
+    }
+
+else
+    {
+        accompanied == false;
+    }
+
+
+if (age >= 13)
+    {
+        console.log("Great...you can see the movie!");
+    }
+
+else if (age < 13 && accompanied == true)
+    {
+        
+        console.log("Great...you are allowed to see the movie!")
+    }
+
+else
+    {
+        console.log("Sorry...you're not allowed to see this movie.");
+    }
+
+
+/*var sillyString = "hEllO THERE hOW arE yOu dOInG?"
 
 var output = sillyString[0].toUpperCase() + sillyString.slice(1).toLowerCase();
 
-console.log(output);
+console.log(output);*/
+
+
 
 /*var mess = "hEllO THERE hOW arE yOu dOInG?"
 
