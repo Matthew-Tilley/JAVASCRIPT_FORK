@@ -2,14 +2,44 @@ var dinosaurs = [];
 
 dinosaurs = ["T-rex", "Velociraptor", ["Stegosaurus", "Triceratops", "Brachiosaurus"], "Pteranodon", "Apatosaurus", "Diplodocus"];
 
+dinosaurs.push("motorcycle");
 
-var last_one = dinosaurs[dinosaurs.length-1];
+dinosaurs.push("alligator");
+console.log(dinosaurs);
+
+//console.log("There are: " + dinosaurs.length + " in this list.");
+
+dinosaurs.unshift("turkey");  //UNSHIFT adds items to the BEGINNING of an array.
+dinosaurs.unshift("flounder");
+
+
+
+dinosaurs.pop(); // POP removes last item from array and RETURNS it.
+
+var flurp = dinosaurs.pop();  //Storing returned (popped) element in a variable.
+
+var zurp = [dinosaurs.pop()]; //Just wanted to try this - now storing popped item in a whole new array.
+
+console.log(zurp);
+
+console.log("VAR FLURP = " + flurp);
+
+
+
+console.log(dinosaurs);
+
+
+
+
+/*var last_one = dinosaurs[dinosaurs.length-1];
 
 console.log(last_one);
 
 var third_to_last = dinosaurs[dinosaurs.length-3];
 
-console.log(third_to_last);  //So in other words, this works the same as (or very similar to ) Python...
+console.log(third_to_last);  //So in other words, this works the same as (or very similar to ) Python...*/
+
+
 
 
 
