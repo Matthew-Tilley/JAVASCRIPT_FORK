@@ -3,9 +3,21 @@ var dinosaurs = [];
 dinosaurs = ["T-rex", "Velociraptor", ["Stegosaurus", "Triceratops", "Brachiosaurus"], "Pteranodon", "Apatosaurus", "Diplodocus"];
 
 
+var last_one = dinosaurs[dinosaurs.length-1];
+
+console.log(last_one);
+
+var third_to_last = dinosaurs[dinosaurs.length-3];
+
+console.log(third_to_last);  //So in other words, this works the same as (or very similar to ) Python...
+
+
+
+/*
 var blurp = dinosaurs[dinosaurs.length-1];
 
 console.log(blurp);
+*/
 
 
 //console.log(dinosaurs);
