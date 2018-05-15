@@ -1,11 +1,20 @@
-var furryAnimals = ["alpaca", "ring-tailed lemur", "yeti"]
-var scalyAnimals = ["lizard", "snake", "alligator"]
+var colors = ["red", "green", "blue", "purple", "orange"];
 
-var mixture = furryAnimals.concat(scalyAnimals);
+console.log(colors.indexOf("blue"));
+
+
+/*
+var furryAnimals = ["alpaca", "ring-tailed lemur", "yeti"];
+var scalyAnimals = ["lizard", "snake", "alligator"];
+var featheredAnimals = ["duck", "goose", "penguin"];
+
+var mixture = furryAnimals.concat(scalyAnimals, featheredAnimals);
 
 console.log(mixture);
 console.log(furryAnimals);
 console.log(scalyAnimals);
+*/
+
 
 
 /*var dinosaurs = [];
