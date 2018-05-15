@@ -1,7 +1,33 @@
+var dinosaurs = [];
+
+dinosaurs = ["T-rex", "Velociraptor", ["Stegosaurus", "Triceratops", "Brachiosaurus"], "Pteranodon", "Apatosaurus", "Diplodocus"];
+
+//console.log(dinosaurs);
+
+console.log(dinosaurs[3][1]);  //THIS ACCESSES THE 't' IN PTERANODON.
+
+
+console.log(dinosaurs[4]);  //THIS ACCESSES "APATOSAURUS."
+
+console.log(dinosaurs[2][2]);  //THIS ACCESSES "BRACHIOSAURUS."
+
+console.log(dinosaurs[2][2][2]); //THIS ACCESSES THE 'a' in "BRACHIOSAURUS."
+
+console.log(dinosaurs.length);
+
+
+
+
+
+
+
+
+
+/*
 var someStuff = [   "this", 
                     "that", 
                     "other", 
-                    "canoe", 
+                    ["canoe"], 
                     "alligator"];
 
 //console.log(someStuff[2]);
@@ -13,7 +39,10 @@ someStuff[5] = "whale";
 
 someStuff[6] = 54;
 
-console.log(someStuff);
+
+
+console.log(someStuff[0][2]);
+*/
 
 
 
