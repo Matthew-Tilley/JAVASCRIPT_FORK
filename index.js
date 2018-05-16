@@ -1,3 +1,8 @@
+console.log(Math.random());
+
+
+
+/*
 var landmarks =[]
 
 landmarks.push("my house", "front path", "flickering streetlamp", "leaky fire hydrant", "fire station", "cat rescue center", "my old school", "my friend's house");
@@ -21,6 +26,7 @@ for (var i=0; i<landmarks.length; i++)
         
     }
 
+*/
 
 
 
