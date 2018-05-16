@@ -1,5 +1,18 @@
 var cat = {};
 
+cat.name = "Furburt";
+
+cat.personality = "chill";
+
+console.log(cat);
+
+console.log(cat.name);
+console.log(cat.blurp);
+console.log(Object.keys(cat));
+
+
+/*var cat = {};
+
 cat["legs"]=3;
 cat["name"]="Harmony";
 cat["color"]="Tortoiseshell";
@@ -8,9 +21,7 @@ console.log(cat.legs);
 console.log(cat.name);
 console.log(cat.color);
 
-console.log(Object.keys(cat));
-
-
+console.log(Object.keys(cat));*/
 
 
 
