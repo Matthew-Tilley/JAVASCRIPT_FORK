@@ -1,6 +1,48 @@
-var colors = ["red", "green", "blue", "purple", "orange"];
+var landmarks =[]
 
-console.log(colors.indexOf("blue"));
+landmarks.push("my house", "front path", "flickering streetlamp", "leaky fire hydrant", "fire station", "cat rescue center", "my old school", "my friend's house");
+
+landmarks.push("my house");
+landmarks.push("front path");
+landmarks.push("flickering streetlamp");
+landmarks.push("leaky fire hydrant");
+landmarks.push("fire station");
+landmarks.push("cat rescue center");
+landmarks.push("my old school");
+landmarks.push("my friend's house");
+
+console.log(landmarks);
+
+
+for (var i=0; i<landmarks.length; i++)
+    {
+        landmarks.pop(landmarks);
+        console.log(landmarks);
+        
+    }
+
+
+
+
+
+//var colors = ["red", "green", "blue", "purple", "orange"];
+
+/*
+var tinker = colors;
+
+//console.log(tinker.join());
+
+//console.log(tinker.join("-")); INSERT DIFFERENT (CUSTOM / NON-COMMA) SEPARATOR BETWEEN ITEMS.
+
+//console.log(tinker.join(" =^.^= ")); //INSERTED 'CAT EARS' BETWEEN EACH ITEM - BECAUSE I KNOW HOW TO.  :)
+
+//console.log(tinker.join("*"));     //INSERTS AN ASTERISK (SP?) BETWEEN EACH ITEM.
+
+console.log(tinker);
+
+//console.log(colors.indexOf("blue"));
+*/
+
 
 
 /*
