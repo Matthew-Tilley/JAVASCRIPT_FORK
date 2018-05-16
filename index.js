@@ -1,3 +1,12 @@
+var scores = {
+    player:
+    score:
+}
+
+
+
+
+/*
 var movies = 
     
     {
@@ -39,6 +48,7 @@ movies["Cars"] = cars;
 
 
 console.log(Object.keys(movies));
+*/
 
 
 
