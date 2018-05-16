@@ -1,3 +1,22 @@
+var phrases = ["That sounds good", "Yes you should definitely do that", "I'm not so sure that's a great idea", "Maybe not today", "Computer says no"]
+
+var x = Math.random();
+
+//console.log(Math.random());
+//console.log(phrases.length);
+
+var y = Math.floor( x * phrases.length);
+//console.log(y);
+
+var output = phrases[y];
+
+console.log(output);
+
+
+
+
+
+/*
 var randomGetter = Math.random();
 
 var indexGetter = Math.floor(randomGetter * 4);
@@ -7,6 +26,7 @@ console.log(indexGetter);
 var zurp = "LKJASDLKJASDLKJASLDKJ";
 
 console.log(zurp[indexGetter]);
+*/
 
 
 
