@@ -1,6 +1,13 @@
-var blurp = Math.floor(Math.random() * 4 );
+var randomGetter = Math.random();
 
-console.log(blurp);
+var indexGetter = Math.floor(randomGetter * 4);
+
+console.log(indexGetter);
+
+
+/*var blurp = Math.floor(Math.random() * 4 );
+
+console.log(blurp);*/
 
 
 
