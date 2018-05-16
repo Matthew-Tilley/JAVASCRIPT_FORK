@@ -1,4 +1,23 @@
-console.log(Math.random());
+var start = Math.random();
+
+var mid = start * 10; 
+
+var end = Math.floor(mid);
+
+console.log(end);
+
+
+//console.log(Math.ceil(Math.random()));
+
+//console.log(Math.floor(Math.random()));
+
+//var randomizer = Math.random();
+
+//var multiplier = Math.floor(randomizer * 10);
+
+//console.log(multiplier);
+
+
 
 
 
