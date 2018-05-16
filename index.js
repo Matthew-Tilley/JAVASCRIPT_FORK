@@ -1,4 +1,50 @@
+var randomBodyParts = ["face", "nose", "hair"];
+var randomAdjectives = ["smelly", "boring", "stupid"];
+var randomWords = ["fly", "marmot", "stick", "monkey", "rat"];
+
+//console.log(randomAdjectives, randomBodyParts, randomWords);
+
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() * randomBodyParts.length)];
+
+//console.log(randomBodyPart);
+
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * randomAdjectives.length)];
+
+//console.log(randomAdjective);
+
+var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
+
+//console.log(randomWord);
+
+
+console.log("Your " + randomBodyPart + " is like a " + randomAdjective + " " + randomWord );
+
+
+
+/*
+var randomNumber = function()
+    {
+        var wildcard = Math.random();
+        
+        return wildcard;
+    
+    }
+//console.log(randomNumber());
+
+var bodyPartIndex = function(wildcard)
+    {
+        return Math.floor(randomBodyParts.length * wildcard);
+    }
+
+console.log(bodyPartIndex());
+*/
+
+    
+    
+/*
 var phrases = ["That sounds good", "Yes you should definitely do that", "I'm not so sure that's a great idea", "Maybe not today", "Computer says no"]
+
+phrases.push("You should have another milkshake", "Go do your homework");
 
 var x = Math.random();
 
@@ -12,6 +58,7 @@ var output = phrases[y];
 
 console.log(output);
 
+*/
 
 
 
