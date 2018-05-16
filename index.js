@@ -17,8 +17,12 @@ var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
 //console.log(randomWord);
 
 
-console.log("Your " + randomBodyPart + " is like a " + randomAdjective + " " + randomWord );
+//console.log("Your " + randomBodyPart + " is like a " + randomAdjective + " " + randomWord );
 
+
+var randomInsult = ["Your", randomBodyPart, "is", "like", "a", randomAdjective, randomWord, + "!!!" ].join(" ");
+
+console.log(randomInsult);
 
 
 /*
