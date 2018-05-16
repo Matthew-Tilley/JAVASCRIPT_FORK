@@ -18,6 +18,10 @@ var kate = {
     luckyNumbers: [1,2,3]
 };
 
+var friends = [anna, dave, kate];
+
+console.log(friends[1]);
+
 
 /*
 var dinosaurs = 
