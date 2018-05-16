@@ -38,6 +38,7 @@ var cars = {
 movies["Cars"] = cars;
 
 
+console.log(Object.keys(movies));
 
 
 
