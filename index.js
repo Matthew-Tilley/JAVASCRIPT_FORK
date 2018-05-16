@@ -8,6 +8,8 @@ console.log(cat);
 
 console.log(cat.legs);
 
+console.log(Object.keys(cat));
+
 
 /*var randomBodyParts = ["face", "nose", "hair"];
 var randomAdjectives = ["smelly", "boring", "stupid"];
