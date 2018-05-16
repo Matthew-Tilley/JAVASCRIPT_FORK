@@ -1,3 +1,18 @@
+var dinosaurs = 
+[
+    {name: "Tyrannosaurus Rex", period: "Late Cretaceous"},
+    {name: "Stegosaurus", period: "Late Jurassic"},
+    {name: "Plateosaurus", period: "Triassic"}
+];
+
+//console.log(dinosaurs);
+
+console.log(dinosaurs[1].period);
+console.log(dinosaurs[2].name);
+
+
+
+/*
 var cat = {};
 
 cat.name = "Furburt";
@@ -9,6 +24,8 @@ console.log(cat);
 console.log(cat.name);
 console.log(cat.blurp);
 console.log(Object.keys(cat));
+*/
+
 
 
 /*var cat = {};
