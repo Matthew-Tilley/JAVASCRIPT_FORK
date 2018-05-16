@@ -1,4 +1,15 @@
-var randomBodyParts = ["face", "nose", "hair"];
+var cat = {
+    legs: 3,
+    name: "Harmony",
+    color: "Tortoiseshell"
+};
+
+console.log(cat);
+
+console.log(cat.legs);
+
+
+/*var randomBodyParts = ["face", "nose", "hair"];
 var randomAdjectives = ["smelly", "boring", "stupid"];
 var randomWords = ["fly", "marmot", "stick", "monkey", "rat"];
 
@@ -22,7 +33,7 @@ var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
 
 var randomInsult = ["Your", randomBodyPart, "is", "like", "a", randomAdjective, randomWord, + "!!!" ].join(" ");
 
-console.log(randomInsult);
+console.log(randomInsult)*/;
 
 
 /*
