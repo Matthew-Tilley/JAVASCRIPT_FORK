@@ -1,3 +1,20 @@
+var cat = {};
+
+cat["legs"]=3;
+cat["name"]="Harmony";
+cat["color"]="Tortoiseshell";
+
+console.log(cat.legs);
+console.log(cat.name);
+console.log(cat.color);
+
+console.log(Object.keys(cat));
+
+
+
+
+
+/*
 var cat = {
     legs: 3,
     name: "Harmony",
@@ -9,6 +26,9 @@ console.log(cat);
 console.log(cat.legs);
 
 console.log(Object.keys(cat));
+*/
+
+
 
 
 /*var randomBodyParts = ["face", "nose", "hair"];
