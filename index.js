@@ -22,6 +22,10 @@ var friends = [anna, dave, kate];
 
 console.log(friends[1]);
 
+console.log(friends[2].luckyNumbers);
+
+console.log(friends[0].luckyNumbers[3]);
+
 
 /*
 var dinosaurs = 
