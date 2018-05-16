@@ -4,6 +4,11 @@ var indexGetter = Math.floor(randomGetter * 4);
 
 console.log(indexGetter);
 
+var zurp = "LKJASDLKJASDLKJASLDKJ";
+
+console.log(zurp[indexGetter]);
+
+
 
 /*var blurp = Math.floor(Math.random() * 4 );
 
@@ -20,6 +25,7 @@ var end = Math.floor(mid);
 console.log(end);*/
 
 
+
 //console.log(Math.ceil(Math.random()));
 
 //console.log(Math.floor(Math.random()));
@@ -29,8 +35,6 @@ console.log(end);*/
 //var multiplier = Math.floor(randomizer * 10);
 
 //console.log(multiplier);
-
-
 
 
 
