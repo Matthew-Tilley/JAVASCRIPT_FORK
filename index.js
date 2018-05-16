@@ -1,10 +1,16 @@
-var start = Math.random();
+var blurp = Math.floor(Math.random() * 4 );
+
+console.log(blurp);
+
+
+
+/*var start = Math.random();
 
 var mid = start * 10; 
 
 var end = Math.floor(mid);
 
-console.log(end);
+console.log(end);*/
 
 
 //console.log(Math.ceil(Math.random()));
