@@ -1,4 +1,14 @@
-var anna = {
+var owedMoney = {};
+
+owedMoney["jimmy"] = 5;
+owedMoney["Anna"] = 7;
+owedMoney.jimmy +=3;
+
+
+console.log(owedMoney.jimmy);
+console.log(owedMoney.Jinen);
+
+/*var anna = {
     name: "Anna",
     age: 200,
     luckyNumbers: [2,4,8,16]
@@ -26,7 +36,7 @@ console.log(friends[2].luckyNumbers);
 
 console.log(friends[0].luckyNumbers[3]);
 
-friends[1];
+friends[1];*/
 
 
 /*
