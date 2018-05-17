@@ -1,10 +1,3 @@
-var scores = {
-    player:
-    score:
-}
-
-
-
 
 /*
 var movies = 
